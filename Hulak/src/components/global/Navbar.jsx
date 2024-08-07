@@ -29,6 +29,18 @@ const Navbar = () => {
             </div>
           </div>
 
+          <div className='flex items-center gap-2'>
+            <div className='p-3 rounded-full hover:bg-gray-100 cursor-pointer'>
+            <CiCircleQuestion size={"20px"}/>
+            </div>
+          </div>
+          
+          <div className='flex items-center gap-2'>
+            <div className='p-3 rounded-full hover:bg-gray-100 cursor-pointer'>
+            <CiCircleQuestion size={"20px"}/>
+            </div>
+          </div>
+
         </div>
     </div>
   )
