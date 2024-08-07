@@ -3,6 +3,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import img from '../../assets/image/GmailLogo.jpg'
 import { IoIoSearch} from "react-icons/io";
 import { CiCircleQuestion } from "react-icons/ci";
+import { CiSettings } from "react-icons/ci";
+import { PiDotsNineBold } from "react-icons/pi";
 
 const Navbar = () => {
   return (
@@ -29,11 +31,11 @@ const Navbar = () => {
             </div>
 
             <div className='p-3 rounded-full hover:bg-gray-100 cursor-pointer'>
-            <CiCircleQuestion size={"20px"}/>
+            <CiSettings size={"20px"}/>
             </div>
 
             <div className='p-3 rounded-full hover:bg-gray-100 cursor-pointer'>
-            <CiCircleQuestion size={"20px"}/>
+            <PiDotsNineBold size={"20px"}/>
             </div>
           </div>
         </div>
