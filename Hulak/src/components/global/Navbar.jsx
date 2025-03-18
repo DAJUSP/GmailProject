@@ -45,6 +45,9 @@ const Navbar = () => {
 					<div className="cursor-pointer">
 						<RxAvatar src={img} size="34" />
 					</div>
+					<div>
+						
+					</div>
 				</div>
 			</div>
 		</div>
